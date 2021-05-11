@@ -4,7 +4,7 @@
 
 In this project, i created an calculator basic with Kotlin language of programming for Android and other platforms
 
-![](C:\Users\Romeo\AndroidStudioProjects\LearnKotlinCalc\Capture.PNG)
+![](Capture.PNG)
 
 ### How to open
 
