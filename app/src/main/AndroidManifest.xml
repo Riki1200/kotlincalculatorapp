@@ -9,12 +9,6 @@
         android:roundIcon="@drawable/ic_icon"
         android:supportsRtl="true"
         android:theme="@style/Theme.LearnKotlinCalc">
-        <activity android:name=".Main3Activity"></activity>
-        <activity
-            android:name=".MainActivity2"
-            android:label="@string/title_activity_main2"
-            android:theme="@style/Theme.LearnKotlinCalc.NoActionBar" />
-
         <meta-data
             android:name="com.google.android.actions"
             android:resource="@xml/menu" />
@@ -22,10 +16,10 @@
         <activity
             android:name=".MainActivity"
             android:screenOrientation="portrait">
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
 
+            <intent-filter>
                 <category android:name="android.intent.category.LAUNCHER" />
+                <action android:name="android.intent.action.MAIN" />
             </intent-filter>
         </activity>
     </application>

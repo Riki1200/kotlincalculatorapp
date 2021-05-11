@@ -15,8 +15,8 @@
 
     <LinearLayout
         android:id="@+id/linearLayout"
-        android:layout_width="411dp"
-        android:layout_height="243dp"
+        android:layout_width="match_parent"
+        android:layout_height="265dp"
         android:background="#FFFAFA"
         android:elevation="5dp"
 
@@ -34,6 +34,7 @@
             android:layout_height="wrap_content"
             android:layout_marginBottom="11dp"
             android:ellipsize="start"
+
             android:fontFamily="sans-serif-light"
             android:gravity="end"
             android:hint="@string/_0"
@@ -41,7 +42,7 @@
             android:textAlignment="textEnd"
             android:textColor="@color/black"
             android:textColorHint="#B1ADAD"
-            android:textSize="35sp"
+            android:textSize="45sp"
             tools:layout_editor_absoluteX="295dp"
             tools:layout_editor_absoluteY="300dp" />
 
@@ -54,12 +55,12 @@
             android:hint="@string/_0"
 
             android:lines="1"
-
+            android:paddingRight="10dp"
             android:paddingTop="5dp"
             android:singleLine="true"
             android:textColor="@color/black"
             android:textColorHint="#B1ADAD"
-            android:textSize="22sp" />
+            android:textSize="30sp" />
 
 
     </LinearLayout>
@@ -142,13 +143,13 @@
         <Button
             android:id="@+id/button_deleted"
             style="@style/PadButtonStyle.Advanced"
-
+            android:elevation="10dp"
             android:layout_width="91dp"
             android:layout_height="wrap_content"
             android:layout_row="0"
             android:layout_column="3"
             android:layout_gravity="fill_vertical|fill_horizontal"
-            android:height="100dp"
+
             android:drawableStart="@drawable/ic_outline_backspace_24"
             android:drawablePadding="@dimen/cardview_default_radius"
             android:gravity="center"
@@ -269,7 +270,7 @@
             android:width="100dp"
             android:height="75dp"
             android:text="@string/module"
-           android:paddingBottom="20dp"
+            android:paddingBottom="20dp"
             tools:layout_editor_absoluteX="213dp"
             tools:layout_editor_absoluteY="545dp" />
 
@@ -308,7 +309,7 @@
 
         <Button
             android:id="@+id/button_reset"
-
+            android:elevation="20dp"
             android:layout_width="wrap_content"
             android:layout_height="match_parent"
             android:layout_column="3"
@@ -430,7 +431,7 @@
             android:layout_column="3"
             android:layout_row="4"
             android:id="@+id/button_equal"
-
+            android:elevation="20dp"
             style="@style/PadButtonStyle.Advanced"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
