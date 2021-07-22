@@ -21,7 +21,7 @@ import kotlin.coroutines.*
 import kotlin.js.ExperimentalJsExport
 
 class MainActivity : AppCompatActivity() {
-    lateinit var content: ConstraintLayout
+    private lateinit var content: ConstraintLayout
 
     override fun onCreate(savedInstanceState: Bundle?) {
         setTheme(R.style.AppTheme)
